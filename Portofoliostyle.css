@@ -1,0 +1,368 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #18191a;
+}
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/* .Awal-Web{
+    z-index: 2;
+} */
+.Awal-Web img {
+  width : 100%
+  
+}
+.Profile img {
+    width: 443px;
+    position: relative;
+    left: 510px;
+    bottom: 210px;
+   z-index: 3;
+}
+/* @media screen and (max-width: 300px) {
+	.Profile img {
+	  width: 19%;
+	}
+  } */
+/* time line gw */
+.timeline-section{
+    background-color: #18191a;
+    min-height: 1000vh;
+    padding: 100px 15px;
+    z-index: 0;
+}
+.timeline-items{
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom:360px;
+    right:35px;
+}
+.timeline-item {
+    bottom: 50px;
+}
+.timeline-date{
+    font-family: Nordeco;
+    font-size: 25pt;
+    color: #bf9b6b;
+    margin:6px 0 -0px;
+}
+.timeline-items::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #bf9b6b;
+    left: calc(50% - 1px);
+}
+.timeline-item{
+    width: 100%;
+    position: relative;
+}
+
+.timeline-item:nth-child(n){
+    padding-left: calc(50% + 30px);
+    margin-bottom: 350px;
+}
+.timeline-item:last-child{
+    margin-bottom: 0;
+}
+.timeline-content{
+    background-color: transparent;
+}
+.timeline-content h3{
+    font-size: 15pt;
+    color: #ffffff;
+    margin:0 0 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: Caviar Dreams;
+    font-style: italic ;
+}
+.timeline-content p{
+    color: #c8c8c8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+}
+.timeline-content img {
+    margin: 35px 0  50px 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20% 0% 20% 0%;
+    border-color: #bf9b6b;
+    -webkit-border-radius: 20% 0% 20% 0%;
+    -moz-border-radius: 20% 0% 20% 0%;
+    -ms-border-radius: 20% 0% 20% 0%;
+    -o-border-radius: 20% 0% 20% 0%;
+}
+.timeline-content img:nth-child(7){
+    width: 100px;
+}
+
+
+/* .timeline-item:nth-child(5){
+    margin-top: 4000px;
+} */
+/* time line gwdawdwaawdpwaowpdwadwdaawddwdw */
+
+.timeline-items2{
+    max-width: 1200px;
+    margin:auto;
+    margin-left: 107px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 800px;
+    margin-top: 300px;
+    
+}
+.timeline-items2::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 104.9%;
+    background-color: #bf9b6b;
+    left: calc(50% - 1px);
+    top: -680px;
+}
+.timeline-item2{
+    
+    width: 100%;
+    position: relative;
+    top: 200px;
+    
+}
+.timeline-item2:nth-child(n){
+    padding-right: calc(50% + 30px);
+    margin-bottom: 350px;
+}
+
+
+.timeline-dot{
+    height: 16px;
+    width: 16px;
+    background-color: #bf9b6b;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top:10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.timeline-date2{
+    font-family: Nordeco;
+    font-size: 25pt;
+    color: #bf9b6b;
+    margin:6px 0 -0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.timeline-items2 .timeline-date2{
+    object-position: 50% 50%;
+}
+.timeline-content2{
+    background-color: transparent;
+
+}
+.timeline-content2 h3{
+    font-size: 15pt;
+    color: #ffffff;
+    margin:0 0 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Caviar Dreams;
+    font-style: italic;
+}
+.timeline-content2 p{
+    color: #c8c8c8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-family: Open Sans;
+    font-style: normal;
+}
+.timeline-content2 img {
+    margin: 35px 20px  20px 40px;
+
+}
+.timeline-item2:nth-child(3){
+    margin-top: 300px;
+}
+.timeline-item2:nth-child(4){
+    margin-top: 100px;
+}
+.timeline-content2:nth-child(5){
+    margin-bottom: 500px;
+}
+
+.timeline-content2 img {
+    margin: 35px 0  50px 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 0% 20% 0% 20%;
+    border-color: #bf9b6b;
+    -webkit-border-radius: 0% 20% 0% 20%;
+    -moz-border-radius: 0% 20% 0% 20%;
+    -ms-border-radius: 0% 20% 0% 20%;
+    -o-border-radius: 0% 20% 0% 20%;
+}
+/* penutup */
+.penutup{
+   position: absolute;
+    top: 6305px;
+    left: 650px;
+}
+/* New Sectionn */
+.others {
+    
+        max-width: 1900px;
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+        position: relative;
+        top: 500px;
+}
+.container .pembatas img{
+    z-index: 5;
+    position: relative;
+    left: 490px;
+    margin: auto;
+    bottom: 26px;
+    
+}
+.pembatas:before{
+    z-index: 4;
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 2140px;
+    background-color: #bf9b6b;
+    transform: rotate(90deg);
+    bottom: -584px;
+    left: 358px;
+}
+
+.sosmed{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left:30px;
+    font-family: Astina;
+    color: #bf9b6b;
+    font-size: 40pt;
+}
+
+.asq {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    left:200px;
+}
+
+.asq div {
+    margin-right: 300px;
+}
+
+.icon1::after{
+    content: "m_fsy.ftw";
+    position: absolute;
+    top: 25px;
+    left: 85px;
+    color: #bf9b6b;
+    font-family: Century Gothic;
+    font-size: 15pt;
+   
+}
+.icon2::after{
+    content: "Zafkiel";
+    position: relative;
+    bottom: 55px;
+    left: 90px;
+    color: #bf9b6b;
+    font-family: Century Gothic;
+    font-size: 15pt;
+   
+}
+.icon3::after{
+    content: "sasakiharukaze";
+    position: relative;
+    bottom: 55px;
+    left: 85px;
+    color: #bf9b6b;
+    font-family: Century Gothic;
+    font-size: 15pt;
+   
+}
+
+.comission {
+    display: flex;
+    flex-direction: wrap;
+   justify-content: center;
+    position: relative;
+    top: 400px;
+    font-family: Astina;
+    color: #bf9b6b;
+    font-size: 40pt;
+    
+}
+.icon4 {
+        display: flex;
+        flex-direction: wrap;
+       justify-content: center;
+        position: relative;
+        top: 450px;
+        right: 0px;
+}
+.icon4::after{
+    content: "WatashiShidou#0010";
+    position: relative;
+    top: 20px;
+    left: 5px;
+    color: #bf9b6b;
+    font-family: Century Gothic;
+    font-size: 15pt;
+   
+}
+
+/* responsive */
+@media(max-width: 767px){
+    .timeline-items::before{
+        left: 7px;
+    }
+    .timeline-item:nth-child(n){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item2:nth-child(n){
+        padding-left: 37px;
+    }
+    .timeline-dot{
+        left:0;
+    }
+}
